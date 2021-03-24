@@ -25,7 +25,7 @@ int main(int argc, char* argv[])
         inputImage = imread(argv[1]);
     else
         inputImage = imread("F:/source/2.png");
-
+//初步完成框架的架构,解码部分需进一步考虑
     QRCodeDetector qrDecoder = QRCodeDetector::QRCodeDetector();
 
     Mat bbox, rectifiedImage;
